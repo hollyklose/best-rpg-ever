@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD916FB1C6AB03B00888AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD916FA1C6AB03B00888AAC /* AppDelegate.swift */; };
+		DAD916FD1C6AB03B00888AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD916FC1C6AB03B00888AAC /* ViewController.swift */; };
+		DAD917001C6AB03B00888AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD916FE1C6AB03B00888AAC /* Main.storyboard */; };
+		DAD917021C6AB03B00888AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD917011C6AB03B00888AAC /* Assets.xcassets */; };
+		DAD917051C6AB03B00888AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD917031C6AB03B00888AAC /* LaunchScreen.storyboard */; };
+		DAD917101C6AB03B00888AAC /* best_rpg_everTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9170F1C6AB03B00888AAC /* best_rpg_everTests.swift */; };
+		DAD9171B1C6AB03B00888AAC /* best_rpg_everUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9171A1C6AB03B00888AAC /* best_rpg_everUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD9170C1C6AB03B00888AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD916EF1C6AB03B00888AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD916F61C6AB03B00888AAC;
+			remoteInfo = "best-rpg-ever";
+		};
+		DAD917171C6AB03B00888AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD916EF1C6AB03B00888AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD916F61C6AB03B00888AAC;
+			remoteInfo = "best-rpg-ever";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD916F71C6AB03B00888AAC /* best-rpg-ever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "best-rpg-ever.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD916FA1C6AB03B00888AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD916FC1C6AB03B00888AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD916FF1C6AB03B00888AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD917011C6AB03B00888AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD917041C6AB03B00888AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD917061C6AB03B00888AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD9170B1C6AB03B00888AAC /* best-rpg-everTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "best-rpg-everTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD9170F1C6AB03B00888AAC /* best_rpg_everTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = best_rpg_everTests.swift; sourceTree = "<group>"; };
+		DAD917111C6AB03B00888AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD917161C6AB03B00888AAC /* best-rpg-everUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "best-rpg-everUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD9171A1C6AB03B00888AAC /* best_rpg_everUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = best_rpg_everUITests.swift; sourceTree = "<group>"; };
+		DAD9171C1C6AB03B00888AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD916F41C6AB03B00888AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD917081C6AB03B00888AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD917131C6AB03B00888AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD916EE1C6AB03B00888AAC = {
+			isa = PBXGroup;
+			children = (
+				DAD916F91C6AB03B00888AAC /* best-rpg-ever */,
+				DAD9170E1C6AB03B00888AAC /* best-rpg-everTests */,
+				DAD917191C6AB03B00888AAC /* best-rpg-everUITests */,
+				DAD916F81C6AB03B00888AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD916F81C6AB03B00888AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD916F71C6AB03B00888AAC /* best-rpg-ever.app */,
+				DAD9170B1C6AB03B00888AAC /* best-rpg-everTests.xctest */,
+				DAD917161C6AB03B00888AAC /* best-rpg-everUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD916F91C6AB03B00888AAC /* best-rpg-ever */ = {
+			isa = PBXGroup;
+			children = (
+				DAD916FA1C6AB03B00888AAC /* AppDelegate.swift */,
+				DAD916FC1C6AB03B00888AAC /* ViewController.swift */,
+				DAD916FE1C6AB03B00888AAC /* Main.storyboard */,
+				DAD917011C6AB03B00888AAC /* Assets.xcassets */,
+				DAD917031C6AB03B00888AAC /* LaunchScreen.storyboard */,
+				DAD917061C6AB03B00888AAC /* Info.plist */,
+			);
+			path = "best-rpg-ever";
+			sourceTree = "<group>";
+		};
+		DAD9170E1C6AB03B00888AAC /* best-rpg-everTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9170F1C6AB03B00888AAC /* best_rpg_everTests.swift */,
+				DAD917111C6AB03B00888AAC /* Info.plist */,
+			);
+			path = "best-rpg-everTests";
+			sourceTree = "<group>";
+		};
+		DAD917191C6AB03B00888AAC /* best-rpg-everUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9171A1C6AB03B00888AAC /* best_rpg_everUITests.swift */,
+				DAD9171C1C6AB03B00888AAC /* Info.plist */,
+			);
+			path = "best-rpg-everUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD916F61C6AB03B00888AAC /* best-rpg-ever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD9171F1C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-ever" */;
+			buildPhases = (
+				DAD916F31C6AB03B00888AAC /* Sources */,
+				DAD916F41C6AB03B00888AAC /* Frameworks */,
+				DAD916F51C6AB03B00888AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "best-rpg-ever";
+			productName = "best-rpg-ever";
+			productReference = DAD916F71C6AB03B00888AAC /* best-rpg-ever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD9170A1C6AB03B00888AAC /* best-rpg-everTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD917221C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-everTests" */;
+			buildPhases = (
+				DAD917071C6AB03B00888AAC /* Sources */,
+				DAD917081C6AB03B00888AAC /* Frameworks */,
+				DAD917091C6AB03B00888AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD9170D1C6AB03B00888AAC /* PBXTargetDependency */,
+			);
+			name = "best-rpg-everTests";
+			productName = "best-rpg-everTests";
+			productReference = DAD9170B1C6AB03B00888AAC /* best-rpg-everTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD917151C6AB03B00888AAC /* best-rpg-everUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD917251C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-everUITests" */;
+			buildPhases = (
+				DAD917121C6AB03B00888AAC /* Sources */,
+				DAD917131C6AB03B00888AAC /* Frameworks */,
+				DAD917141C6AB03B00888AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD917181C6AB03B00888AAC /* PBXTargetDependency */,
+			);
+			name = "best-rpg-everUITests";
+			productName = "best-rpg-everUITests";
+			productReference = DAD917161C6AB03B00888AAC /* best-rpg-everUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD916EF1C6AB03B00888AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Holly Klose";
+				TargetAttributes = {
+					DAD916F61C6AB03B00888AAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7M3P7V275;
+					};
+					DAD9170A1C6AB03B00888AAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7M3P7V275;
+						TestTargetID = DAD916F61C6AB03B00888AAC;
+					};
+					DAD917151C6AB03B00888AAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7M3P7V275;
+						TestTargetID = DAD916F61C6AB03B00888AAC;
+					};
+				};
+			};
+			buildConfigurationList = DAD916F21C6AB03B00888AAC /* Build configuration list for PBXProject "best-rpg-ever" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD916EE1C6AB03B00888AAC;
+			productRefGroup = DAD916F81C6AB03B00888AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD916F61C6AB03B00888AAC /* best-rpg-ever */,
+				DAD9170A1C6AB03B00888AAC /* best-rpg-everTests */,
+				DAD917151C6AB03B00888AAC /* best-rpg-everUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD916F51C6AB03B00888AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD917051C6AB03B00888AAC /* LaunchScreen.storyboard in Resources */,
+				DAD917021C6AB03B00888AAC /* Assets.xcassets in Resources */,
+				DAD917001C6AB03B00888AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD917091C6AB03B00888AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD917141C6AB03B00888AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD916F31C6AB03B00888AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD916FD1C6AB03B00888AAC /* ViewController.swift in Sources */,
+				DAD916FB1C6AB03B00888AAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD917071C6AB03B00888AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD917101C6AB03B00888AAC /* best_rpg_everTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD917121C6AB03B00888AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD9171B1C6AB03B00888AAC /* best_rpg_everUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD9170D1C6AB03B00888AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD916F61C6AB03B00888AAC /* best-rpg-ever */;
+			targetProxy = DAD9170C1C6AB03B00888AAC /* PBXContainerItemProxy */;
+		};
+		DAD917181C6AB03B00888AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD916F61C6AB03B00888AAC /* best-rpg-ever */;
+			targetProxy = DAD917171C6AB03B00888AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD916FE1C6AB03B00888AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD916FF1C6AB03B00888AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD917031C6AB03B00888AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD917041C6AB03B00888AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD9171D1C6AB03B00888AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD9171E1C6AB03B00888AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD917201C6AB03B00888AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "best-rpg-ever/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.best-rpg-ever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD917211C6AB03B00888AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "best-rpg-ever/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.best-rpg-ever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD917231C6AB03B00888AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "best-rpg-everTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.best-rpg-everTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/best-rpg-ever.app/best-rpg-ever";
+			};
+			name = Debug;
+		};
+		DAD917241C6AB03B00888AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "best-rpg-everTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.best-rpg-everTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/best-rpg-ever.app/best-rpg-ever";
+			};
+			name = Release;
+		};
+		DAD917261C6AB03B00888AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "best-rpg-everUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.best-rpg-everUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "best-rpg-ever";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAD917271C6AB03B00888AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "best-rpg-everUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.best-rpg-everUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "best-rpg-ever";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD916F21C6AB03B00888AAC /* Build configuration list for PBXProject "best-rpg-ever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD9171D1C6AB03B00888AAC /* Debug */,
+				DAD9171E1C6AB03B00888AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD9171F1C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-ever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD917201C6AB03B00888AAC /* Debug */,
+				DAD917211C6AB03B00888AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD917221C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-everTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD917231C6AB03B00888AAC /* Debug */,
+				DAD917241C6AB03B00888AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD917251C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-everUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD917261C6AB03B00888AAC /* Debug */,
+				DAD917271C6AB03B00888AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD916EF1C6AB03B00888AAC /* Project object */;
+}
