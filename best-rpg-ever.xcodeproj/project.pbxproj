@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DACEE5C31C6E694900A0C0A3 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEE5C21C6E694900A0C0A3 /* character.swift */; };
+		DACEE5C51C6E877000A0C0A3 /* redcat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEE5C41C6E877000A0C0A3 /* redcat.swift */; };
+		DACEE5C71C6E942E00A0C0A3 /* bluecat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEE5C61C6E942E00A0C0A3 /* bluecat.swift */; };
 		DAD916FB1C6AB03B00888AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD916FA1C6AB03B00888AAC /* AppDelegate.swift */; };
 		DAD916FD1C6AB03B00888AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD916FC1C6AB03B00888AAC /* ViewController.swift */; };
 		DAD917001C6AB03B00888AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD916FE1C6AB03B00888AAC /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DACEE5C21C6E694900A0C0A3 /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		DACEE5C41C6E877000A0C0A3 /* redcat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = redcat.swift; sourceTree = "<group>"; };
+		DACEE5C61C6E942E00A0C0A3 /* bluecat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bluecat.swift; sourceTree = "<group>"; };
 		DAD916F71C6AB03B00888AAC /* best-rpg-ever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "best-rpg-ever.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD916FA1C6AB03B00888AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAD916FC1C6AB03B00888AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				DAD916FA1C6AB03B00888AAC /* AppDelegate.swift */,
 				DAD916FC1C6AB03B00888AAC /* ViewController.swift */,
 				DAD916FE1C6AB03B00888AAC /* Main.storyboard */,
+				DACEE5C21C6E694900A0C0A3 /* character.swift */,
+				DACEE5C41C6E877000A0C0A3 /* redcat.swift */,
+				DACEE5C61C6E942E00A0C0A3 /* bluecat.swift */,
 				DAD917011C6AB03B00888AAC /* Assets.xcassets */,
 				DAD917031C6AB03B00888AAC /* LaunchScreen.storyboard */,
 				DAD917061C6AB03B00888AAC /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACEE5C31C6E694900A0C0A3 /* character.swift in Sources */,
+				DACEE5C71C6E942E00A0C0A3 /* bluecat.swift in Sources */,
 				DAD916FD1C6AB03B00888AAC /* ViewController.swift in Sources */,
+				DACEE5C51C6E877000A0C0A3 /* redcat.swift in Sources */,
 				DAD916FB1C6AB03B00888AAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +499,7 @@
 				DAD917211C6AB03B00888AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAD917221C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-everTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +508,7 @@
 				DAD917241C6AB03B00888AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAD917251C6AB03B00888AAC /* Build configuration list for PBXNativeTarget "best-rpg-everUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +517,7 @@
 				DAD917271C6AB03B00888AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
